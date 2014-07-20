@@ -98,7 +98,7 @@ get_header(); ?>
 
 				<section class="signup">
 					<section class="container">
-						<div class="meet-us-img"></div>
+						<div class="mail-img"></div>
 						<h2 class="title"><?php the_field('meet-us-title'); ?></h2>
 						<p class="text"><?php the_field('meet-us-text'); ?></p>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>sign-up">

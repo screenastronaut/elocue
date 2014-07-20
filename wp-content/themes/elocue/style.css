@@ -854,13 +854,15 @@ object {
 }
 
 .about,
-.about-trustus {
+.about-trustus,
+.about-contact {
 	background-color: #ededed;
 	padding: 100px 0;
 }
 
 .about .title,
-.about-trustus .title {
+.about-trustus .title,
+.about-meet .title {
 	color: #293539;
 	font-weight: 300;
 	margin: 0 auto 40px;
@@ -896,7 +898,8 @@ object {
 }
 
 .preview,
-.about-intro {
+.about-intro,
+.about-meet {
 	background-color: #fff;
 	padding: 100px 0;
 }
@@ -933,7 +936,7 @@ object {
 	padding: 100px 0;
 }
 
-.meet-us-img {
+.mail-img {
 	background: url(img/sprite.png) no-repeat -43px -404px;
 	height: 174px;
 	margin: 0 auto;
