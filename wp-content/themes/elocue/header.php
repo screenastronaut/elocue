@@ -30,7 +30,7 @@
 		<header id="masthead" class="site-header" role="banner">
 			<section class="container">
 				<div class="row">
-					<div class="site-branding col-md-3">
+					<div class="site-branding col-md-7">
 						<h1 class="site-title logo-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					</div>
 
