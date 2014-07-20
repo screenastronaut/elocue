@@ -47,7 +47,6 @@ and Blueprint http://www.blueprintcss.org/
 13.0 - Header/Footer
 14.0 - Buttons
 15.0 - Pages
-	15.1 - Homepage
 
 --------------------------------------------------------------*/
 
@@ -167,7 +166,11 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	margin: 0 1.5em;
+	color: ;
+	font-family: "Special Elite", cursive;
+	font-size: 34px !important;
+	margin: 1em 2em !important;
+	text-align: center;
 }
 address {
 	margin: 0 0 1.5em;
@@ -802,9 +805,6 @@ object {
 /*--------------------------------------------------------------
 15.0 Pages
 --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-15.1 Homepage
---------------------------------------------------------------*/
 
 .logo-img {
 	background: url(img/sprite.png) no-repeat -53px -184px;
@@ -853,19 +853,22 @@ object {
 	margin: 0 auto;
 }
 
-.about {
+.about,
+.about-trustus {
 	background-color: #ededed;
 	padding: 100px 0;
 }
 
-.about .title {
+.about .title,
+.about-trustus .title {
 	color: #293539;
 	font-weight: 300;
 	margin: 0 auto 40px;
 	text-transform: none;
 }
 
-.about p {
+.about p,
+.about-trustus p {
 	color: #293539;
 	margin-bottom: 20px;
 }
@@ -892,7 +895,8 @@ object {
 	line-height: 20px;
 }
 
-.preview {
+.preview,
+.about-intro {
 	background-color: #fff;
 	padding: 100px 0;
 }
